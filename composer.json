@@ -1,0 +1,25 @@
+{
+    "name": "asgrim/scout-apm-php-heroku-cli-example",
+    "description": "Example application for testing Heroku CLI",
+    "type": "project",
+    "require": {
+        "php": "8.1.*",
+        "scoutapp/scout-apm-php": "^7.0",
+        "monolog/monolog": "^2.3",
+        "psr/log": "^1.0",
+        "laminas/laminas-servicemanager": "^3.10",
+        "psr/container": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asgrim\\ScoutApmPhpHerokuCliExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Titcumb",
+            "email": "james@asgrim.com"
+        }
+    ]
+}
